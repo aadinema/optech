@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../styles/Contact.module.css";
+import styles from "../Styles/Contact.module.css";
 import Section from "../features/Home/heroSecton/Section.jsx";
 
 const ContactUs = () => {

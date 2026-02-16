@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./blog.module.css";
+import styles from "./Blog.module.css";
 const Blog = () => {
   const cardData = [
     {

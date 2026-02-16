@@ -1,6 +1,6 @@
 // FlexboxLayout.js
 import React from "react";
-import styles from "./projects.module.css";
+import styles from "./Projects.module.css";
 
 const projects = () => {
   const data = [
