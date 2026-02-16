@@ -1,0 +1,176 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+    background-color: #f5f6f7;
+  }
+  
+  .reviewContainer {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+    width: 100%;
+    max-width: 1400px;
+  }
+  
+  .card {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    gap: 2rem;
+    text-align: center;
+    background: transparent;
+    border-radius: 8px;
+    padding: 2rem 0;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .iconContainer {
+    margin-bottom: 1rem;
+  }
+  
+  .icon {
+    width: 65px;
+    height: auto;
+  }
+  
+  .textContainer {
+    text-align: center;
+  }
+  
+  .numberContainer {
+    margin-bottom: 0.5rem;
+  }
+  
+  .number {
+    font-size: 3.5rem;
+    color: #0a165e;
+    font-weight: bold;
+  }
+  
+  .paragraph {
+    font-size: 1rem;
+    color: #666666;
+    line-height: 1.5;
+  }
+
+
+  /* customer section */
+  .mainHead{
+    font-size: 1.5rem;
+    color: #0a165e;
+  }
+   .subContainer{
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+   }
+
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 1rem;
+    width: 90%;
+    height: 60%;
+    
+  }
+  
+  .card {
+    background: #fff;
+    padding: 1rem 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .starContainer {
+    padding: 0.5rem 2rem;
+    margin-right:8rem;
+  }
+  .starIcon{
+    display: flex;
+    color: #ECB014;
+    font-size: 1.4rem;
+    text-align: left;
+    
+  }
+  .starIcon li{
+    list-style-type: none;
+  }
+  
+  .mainPara {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 2rem;
+    text-align: left;
+    font-weight: 400;
+  }
+  
+  .userInfo {
+    margin-top: 1rem;
+    display: flex;
+    gap: 3rem;
+  }
+  
+  .heading {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #0a165e;
+  }
+  
+  .subPara {
+    color: #888;
+    font-size: 1rem;
+  }
+  
+  .quoteImage {
+    font-size: 2rem;
+    height: auto;
+    margin-top: 0.5rem;
+  }
+  
+  /* Responsive Styling */
+  @media (max-width: 768px) {
+    .cardContainer {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cardContainer {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .reviewContainer {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 1.5rem;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .reviewContainer {
+      grid-template-columns: 1fr;
+      gap: 1rem;
+    }
+  
+    .card {
+      padding: 1rem;
+    }
+  }
+  

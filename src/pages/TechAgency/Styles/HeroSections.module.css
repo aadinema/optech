@@ -1,0 +1,152 @@
+.container {
+  width: 100%;
+  overflow-x: hidden;
+  background-image: url("https://wps.mirrortheme.com/optech/wp-content/uploads/2024/09/bg2.png");
+  background-size: cover;
+  background-position: center;
+  font-family: sora;
+}
+
+/* ---------------- TOP SECTION ---------------- */
+
+.section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  padding: 4rem 1.5rem;
+  text-align: center;
+}
+
+.left,
+.right {
+  width: 100%;
+}
+
+.heading {
+  color: #fff;
+  font-size: 2.5rem;
+  font-weight: 600;
+  line-height: 3rem;
+}
+
+.paragraph {
+  color: #fff;
+  font-size: 1rem;
+  line-height: 1.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.buttonGroup {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.primaryButton,
+.secondaryButton {
+  padding: 0.8rem 1.4rem;
+  font-weight: 600;
+  border-radius: 8px;
+  margin: 0.4rem;
+  cursor: pointer;
+  border: none;
+}
+
+.primaryButton {
+  background: #2b4dff;
+  color: #fff;
+}
+
+.secondaryButton {
+  background: #fff;
+  color: #2b4dff;
+}
+
+/* ---------------- IMAGE ---------------- */
+
+.imageContainer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0;
+}
+
+.image {
+  max-width: 90%;
+  height: auto;
+}
+
+/* ---------------- TEXT ---------------- */
+
+.centerText {
+  text-align: center;
+  color: #fff;
+  margin: 2rem 1rem;
+  font-weight: 500;
+}
+
+/* ---------------- BRAND SLIDER ---------------- */
+
+.sliderContainer {
+  width: 100%;
+  overflow: hidden;
+  padding: 2rem 0;
+}
+
+.brandSwiper {
+  width: 100%;
+}
+
+.brandSlide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.brandSlide img {
+  max-width: 140px;
+  opacity: 0.8;
+  transition: opacity 0.3s ease;
+}
+
+.brandSlide img:hover {
+  opacity: 1;
+}
+
+/* Swiper marquee fix */
+:global(.swiper-wrapper) {
+  transition-timing-function: linear !important;
+}
+
+/* ---------------- RESPONSIVE ---------------- */
+
+@media (min-width: 768px) {
+  .section {
+    flex-direction: row;
+    text-align: left;
+  }
+
+  .left {
+    width: 60%;
+  }
+
+  .right {
+    width: 40%;
+  }
+
+  .heading {
+    font-size: 4rem;
+    line-height: 4.5rem;
+  }
+
+  .buttonGroup {
+    justify-content: flex-start;
+  }
+}
+
+@media (min-width: 1024px) {
+  .heading {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}

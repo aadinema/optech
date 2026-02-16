@@ -1,0 +1,129 @@
+/* App Wrapper */
+.App {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    text-align: center;
+    background-color: #FFFFFF;
+    min-height: 100vh;
+  }
+  
+  /* Header Styles */
+  /* .header {
+    color: #FFF;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  } */
+  
+  /* Card Grid */
+  .cardGrid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cards per row */
+    gap: 16px;
+    margin: 1rem 2rem;
+  }
+  
+  /* Card Styles */
+  .card {
+    border-radius: 8px;
+    text-align: left;
+    background-color: #FFFFFF;
+    transition: transform 0.3s, box-shadow 0.3s;
+    height: 100%; /* Adjusted for flexibility */
+  }
+  
+  .card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Image Styles */
+  .image {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+  }
+  
+  /* Card Heading */
+  .heading {
+    font-size: 1.5rem;
+    color: #040D43;
+    margin: 12px 0;
+    padding: 0rem 1rem;
+  }
+  
+  /* Card Paragraph */
+  .paragraph {
+    font-size: 1rem;
+    color: #666;
+    padding: 0rem 1rem 2rem;
+  }
+  
+  /* Responsive Styles */
+  
+  /* Tablet View */
+  @media (max-width: 1024px) {
+    .header {
+      font-size: 1.8rem;
+    }
+  
+    .cardGrid {
+      grid-template-columns: repeat(2, 1fr); /* 2 cards per row */
+      gap: 12px;
+    }
+  
+    .heading {
+      font-size: 1.4rem;
+    }
+  
+    .paragraph {
+      font-size: 0.9rem;
+    }
+  }
+  
+  /* Mobile View */
+  @media (max-width: 768px) {
+    .header {
+      font-size: 1.6rem;
+    }
+  
+    .cardGrid {
+      grid-template-columns: repeat(1, 1fr); /* Single-column layout */
+      gap: 12px;
+    }
+  
+    .heading {
+      font-size: 1.3rem;
+    }
+  
+    .paragraph {
+      font-size: 0.85rem;
+    }
+  }
+  
+  /* Very Small Devices */
+  @media (max-width: 480px) {
+    .App {
+      padding: 10px;
+    }
+  
+    .header {
+      font-size: 1.4rem;
+    }
+  
+    .cardGrid {
+      gap: 8px;
+    }
+  
+    .card {
+      padding: 8px;
+    }
+  
+    .heading {
+      font-size: 1.2rem;
+    }
+  
+    .paragraph {
+      font-size: 0.8rem;
+    }
+  }
+  

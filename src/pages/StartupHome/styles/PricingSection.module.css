@@ -1,0 +1,208 @@
+.mainContainer {
+  padding-bottom: 2rem;
+  padding: 2rem 1rem;
+  width: 100vw;
+  height: auto;
+  background-color: #040d43;
+}
+.container {
+  display: flex;
+  margin-bottom: 2rem;
+  width: 100vw;
+  /* height: ; */
+  background-color: #040d43;
+}
+.subContainer {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1rem;
+  background-color: #dee0e9;
+  margin-right: 1.5rem;
+  border-radius: 10%;
+  padding: 0rem 2rem;
+  text-align: justify;
+}
+.subContainer1 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1rem;
+  background-color: #2b4dff;
+  margin-right: 1.5rem;
+  border-radius: 10%;
+  padding: 0rem 2rem;
+  text-align: justify;
+}
+.subContainer2 {
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  gap: 1rem;
+  background-color: #dee0e9;
+  margin-right: 1rem;
+  border-radius: 10%;
+  padding: 0rem 2rem;
+  text-align: left;
+}
+.mainHeading {
+  text-align: center;
+  font-size: 3rem;
+  margin: 4rem 0rem;
+  color: #ffffff;
+}
+.heading {
+  font-size: 2rem;
+  text-align: left;
+  color: #040d43;
+  padding: 1rem;
+}
+.heading2 {
+  font-size: 3rem;
+  color: #040d43;
+  padding: 1rem;
+}
+.subContainerHeading {
+  font-size: 3rem;
+  color: #ffffff;
+  padding: 1rem;
+}
+.para {
+  font: 1rem;
+  color: black;
+  line-height: 1.5rem;
+}
+.bt {
+  padding: 1rem 1.5rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+  background-color: #2b4dff;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: none;
+}
+.bt:hover {
+  background-color: #040d43;
+}
+.bt1 {
+  color: #040d43;
+  background-color: #ffffff;
+  margin-bottom: 1rem;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: none;
+}
+.bt1:hover {
+  background-color: #040d43;
+  color: #ffffff;
+}
+.list {
+  list-style-type: none;
+  font: 1rem;
+}
+.list li {
+  padding-bottom: 1rem;
+}
+i {
+  padding-right: 1rem;
+}
+
+/* Responsive for Tablets */
+@media (max-width: 768px) {
+  .mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .container {
+    flex-direction: column; /* Stack items vertically */
+    margin-bottom: 1rem;
+  }
+
+  .subContainer,
+  .subContainer1,
+  .subContainer2 {
+    width: 90%; /* Make each container take full width */
+    margin-right: 4rem; /* Remove margin */
+    margin-bottom: 1rem; /* Add space between containers */
+  }
+
+  .mainHeading {
+    font-size: 2.5rem; /* Adjust font size for smaller screens */
+    margin: 2rem 0;
+  }
+
+  .heading {
+    font-size: 1.5rem; /* Adjust heading size */
+  }
+
+  .heading2,
+  .subContainerHeading {
+    font-size: 2.5rem; /* Adjust plan prices size */
+  }
+
+  .para {
+    font-size: 0.9rem; /* Adjust paragraph font size */
+  }
+
+  .bt,
+  .bt1 {
+    font-size: 1.2rem; /* Adjust button font size */
+    padding: 0.8rem 1.2rem; /* Adjust button padding */
+  }
+
+  .list li {
+    font-size: 0.9rem; /* Adjust list font size */
+  }
+}
+
+/* Responsive for Mobile */
+@media (max-width: 480px) {
+  .container {
+    flex-direction: column; /* Stack items vertically */
+    margin-bottom: 1rem;
+  }
+
+  .subContainer,
+  .subContainer1,
+  .subContainer2 {
+    width: 100%; /* Make each container take full width */
+    margin-right: 0; /* Remove margin */
+    margin-bottom: 1rem; /* Add space between containers */
+  }
+
+  .mainHeading {
+    font-size: 2rem; /* Adjust font size for smaller screens */
+    margin: 1.5rem 0;
+  }
+
+  .heading {
+    font-size: 1.8rem; /* Adjust heading size */
+  }
+
+  .heading2,
+  .subContainerHeading {
+    font-size: 2rem; /* Adjust plan prices size */
+  }
+
+  .para {
+    font-size: 1rem; /* Adjust paragraph font size */
+  }
+
+  .bt,
+  .bt1 {
+    font-size: 1.1rem;
+    padding: 0.7rem 1rem;
+  }
+
+  .list li {
+    font-size: 0.8rem;
+  }
+}

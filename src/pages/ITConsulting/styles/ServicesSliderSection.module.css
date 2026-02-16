@@ -1,0 +1,82 @@
+.headContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 3rem 0rem;
+}
+.heading{
+    font-size: 3rem;
+    line-height: 1.15em;
+    letter-spacing: -0.03em;
+    color: #0A165E;
+    text-align: center;
+}
+
+.sliderContainer {
+  padding: 20px 40px;
+  background-color: #FFFFFF;
+  margin-bottom: 4rem;
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* padding: 10px; */
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: transform 0.5s ease-in-out;
+  padding: 15px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.image {
+  width: 95%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.iconContainer {
+  position: absolute;
+  bottom: 150px;
+  left: 150px;
+  background: #fff;
+  border-radius: 10%;
+  padding: 10px;
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); */
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+}
+
+.title {
+  font-size: 1.2rem;
+  font-weight: 600;
+  margin-top: 15px;
+  color: #FFFFFF;
+  position: absolute;
+  bottom: 100px;
+  left: 60px;
+}
+
+.slick-dots {
+  bottom: -30px;
+}
+
+.slick-dots li button:before {
+  color: #333;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #FFFFFF;
+}

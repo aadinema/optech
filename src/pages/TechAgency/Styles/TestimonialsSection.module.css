@@ -1,0 +1,104 @@
+.carouselContainer {
+  padding: 2rem 1rem;
+  background-color: #040d43;
+  text-align: center;
+}
+
+.cardWrapper {
+  padding: 0 10px; /* Adjust horizontal spacing between cards */
+}
+
+.card {
+  padding: 1.5rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0.5rem auto; /* Center the card horizontally */
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+  justify-content: center; /* Center content vertically */
+  min-height: 400px;
+  width: 100%; /* Ensures uniform width */
+  max-width: 800px; /* Limits card width */
+}
+
+.quoteIcon {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  padding-left: 40%;
+}
+
+.quote {
+  font-size: 2rem;
+  color: #ffff;
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.author {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #ffff;
+  margin-top: 0.5rem;
+}
+
+.role {
+  font-size: 1rem;
+  color: whitesmoke;
+  margin-top: 0.3rem;
+}
+
+.starContainer {
+  margin-bottom: 0.5rem;
+}
+
+.starIcon {
+  list-style-type: none;
+  display: flex;
+  gap: 0.5rem;
+  color: #ecb014;
+  padding-left: 40%;
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1rem;
+    min-height: 300px;
+  }
+
+  .quote {
+    font-size: 0.9rem;
+  }
+
+  .author {
+    font-size: 1rem;
+  }
+
+  .role {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .card {
+    padding: 0.8rem;
+    min-height: 280px;
+    text-align: center;
+  }
+
+  .quote {
+    font-size: 1rem;
+  }
+
+  .author {
+    font-size: 1rem;
+  }
+
+  .role {
+    font-size: 1rem;
+  }
+  .starIcon {
+    padding-left: 20%;
+  }
+}

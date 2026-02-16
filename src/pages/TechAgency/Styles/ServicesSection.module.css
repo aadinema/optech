@@ -1,0 +1,132 @@
+.headContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem 1rem;
+}
+
+.heading {
+  font-size: 3rem;
+  line-height: 1.2em;
+  letter-spacing: -0.02em;
+  color: #0a165e;
+  text-align: center;
+}
+
+.sliderContainer {
+  padding: 10px 20px;
+  background-color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+.cardWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  border-radius: 12px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  transition: transform 0.3s ease;
+  padding: 10px;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.iconContainer {
+  position: absolute;
+  bottom: 120px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: #fff;
+  border-radius: 50%;
+  padding: 10px;
+}
+
+.icon {
+  width: 40px;
+  height: 40px;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-top: 10px;
+  color: #ffffff;
+  position: absolute;
+  bottom: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slick-dots {
+  bottom: -20px;
+}
+
+.slick-dots li button:before {
+  color: #333;
+}
+
+.slick-dots li.slick-active button:before {
+  color: #0a165e;
+}
+
+/* Responsive styles for small devices */
+@media (max-width: 768px) {
+  .headContainer {
+    margin: 1.5rem 0.5rem;
+  }
+
+  .heading {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+  }
+
+  .sliderContainer {
+    padding: 10px;
+  }
+
+  .card {
+    padding: 8px;
+  }
+
+  .iconContainer {
+    bottom: 100px;
+  }
+
+  .title {
+    font-size: 0.9rem;
+    bottom: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  .heading {
+    font-size: 2.4rem;
+  }
+
+  .iconContainer {
+    bottom: 90px;
+  }
+
+  .icon {
+    width: 30px;
+    height: 30px;
+  }
+
+  .title {
+    font-size: 0.8rem;
+    bottom: 30px;
+  }
+}
