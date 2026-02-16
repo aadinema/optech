@@ -1,5 +1,5 @@
 import React, { useRef, useState } from "react";
-import styles from "./customer.module.css";
+import styles from "./Customer.module.css";
 
 const CustomerServices = () => {
   const scrollContainerRef = useRef(null);

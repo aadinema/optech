@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/aboutTeam.module.css";
+import styles from "./styles/AboutTeam.module.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";

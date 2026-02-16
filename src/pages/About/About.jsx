@@ -1,7 +1,7 @@
 import React, { lazy, Suspense } from "react";
-import AboutHero from "./AboutHero";
-import AboutContent from "./AboutContent";
-import AboutStats from "./AboutStats";
+import AboutHero from "./AboutHero.jsx";
+import AboutContent from "./AboutContent.jsx";
+import AboutStats from "./AboutStats.jsx";
 
 const AboutTeam = lazy(() => import("./AboutTeam"));
 

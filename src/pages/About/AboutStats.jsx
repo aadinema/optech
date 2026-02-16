@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from "./styles/aboutStats.module.css"
+import styles from "./styles/AboutStats.module.css"
 const AboutStats = () => {
     const data = [
         {
