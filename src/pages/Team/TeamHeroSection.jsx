@@ -1,5 +1,5 @@
 import React from "react";
-import styles from './styles/TeamHeroSection.module.css'
+import styles from './Styles/TeamHeroSection.module.css'
 const TeamHeroSection = () => {
   return (
     <>
