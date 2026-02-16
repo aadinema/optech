@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/BlogSection.module.css";
+import styles from "./Styles/BlogSection.module.css";
 const BlogSection = () => {
   const cardData = [
     {

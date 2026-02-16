@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/ProcessSection.module.css";
+import styles from "./Styles/ProcessSection.module.css";
 
 const ProcessSection = () => {
   const data = [

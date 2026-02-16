@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/ProjectsSection.module.css";
+import styles from "./Styles/ProjectsSection.module.css";
 
 const  ProjectsSection = () => {
   const data = [

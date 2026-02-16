@@ -1,7 +1,7 @@
 import React from "react";
-import styles from "./styles/TestimonialHero.module.css";
+import styles from "./Styles/TestimonialHero.module.css"
 
-const Page1 = () => {
+const TestimonialHero = () => {
   return (
     <>
       <div className={styles.container}>
@@ -14,4 +14,4 @@ const Page1 = () => {
   );
 };
 
-export default Page1;
+export default TestimonialHero;

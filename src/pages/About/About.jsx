@@ -3,7 +3,7 @@ import AboutHero from "./AboutHero.jsx";
 import AboutContent from "./AboutContent.jsx";
 import AboutStats from "./AboutStats.jsx";
 
-const AboutTeam = lazy(() => import("./AboutTeam"));
+const AboutTeam = lazy(() => import("./AboutTeam.jsx"));
 
 const About = () => {
   return (

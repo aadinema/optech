@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/ServicesSliderSection.module.css";
+import styles from "./Styles/ServicesSliderSection.module.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper/modules";

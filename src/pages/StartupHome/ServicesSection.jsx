@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/ServicesSection.module.css";
+import styles from "./Styles/ServicesSection.module.css";
 import { data } from "react-router-dom";
 const ServicesSection = () => {
   const data1 = [

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./styles/ProjectsSliderSection.module.css";
+import styles from "./Styles/ProjectsSliderSection.module.css";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination, Autoplay } from "swiper/modules";
